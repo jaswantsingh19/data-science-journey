@@ -10,6 +10,13 @@
 # # # This is a simple Python program that takes user input to define
 # # # variables of different data types and prints their types and values.
 
+
+# Let's Practice
+# Write a Program to input 2 numbers & use all posible
+# arithmetic, relational, assignment, logical operators,
+# and type casting (implicit & explicit) on them.
+
+
 # # # Arithmetic Operations
 # # a = int(input("Enter first number (a): "))
 # # b = int(input("Enter second number (b): "))
@@ -23,6 +30,7 @@
 # # # This program performs various arithmetic operations on two user-input numbers
 # # # and prints the results.
 
+
 # # # Relational Operators
 # # a = int(input("Enter first number (a) for comparison: "))
 # # b = int(input("Enter second number (b) for comparison: "))
@@ -34,6 +42,7 @@
 # # print(a <= b)  # <result>
 # # # This program compares two user-input numbers using relational operators
 # # # and prints the boolean results.
+
 
 # # # Assignment Operators
 # # a = int(input("Enter a number (a) for assignment operations: "))
@@ -51,6 +60,7 @@
 # # # This program demonstrates the use of assignment operators
 # # # by performing operations on a user-input variable and printing the results.
 
+
 # # # Logical Operators
 # # a_input = input("Enter first boolean value (True/False) for a: ")
 # # b_input = input("Enter second boolean value (True/False) for b: ")
@@ -63,6 +73,7 @@
 # # # This program uses logical operators to evaluate boolean expressions
 # # # based on user-input boolean values and prints the results.
 # # # and prints the results based on user-input boolean values.
+
 
 # # # Type Casting
 # # # # Implicit Type Casting
@@ -93,3 +104,12 @@
 # # # This program demonstrates explicit type casting
 # # # by converting a user-input string to int and float
 # # # and printing the results and their types.
+
+
+# Let's Practice
+# WAP to input side of a square & print its area.
+# Let‘s Practice
+# WAP to input 2 floating point numbers & print their average.
+# Let‘s Practice
+# WAP to input 2 int numbers, a and b.
+# Print True if a is greater than or equal to b. If not print False.
