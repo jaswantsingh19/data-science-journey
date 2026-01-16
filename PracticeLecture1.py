@@ -106,10 +106,23 @@
 # # # and printing the results and their types.
 
 
-# Let's Practice
-# WAP to input side of a square & print its area.
-# Let‘s Practice
-# WAP to input 2 floating point numbers & print their average.
-# Let‘s Practice
-# WAP to input 2 int numbers, a and b.
-# Print True if a is greater than or equal to b. If not print False.
+# # Let's Practice
+# # WAP to input side of a square & print its area.
+# side = float(input("Enter the side of the square: "))
+# area = side * side
+# print("Area of the square is:", area)
+
+
+# # Let's Practice
+# # WAP to input 2 floating point numbers & print their average.
+# num1 = float(input("Enter first floating point number: "))
+# num2 = float(input("Enter second floating point number: "))
+# average = (num1 + num2) / 2
+# print("Average of the two numbers is:", average)
+
+# # Let's Practice
+# # WAP to input 2 int numbers, a and b.
+# # Print True if a is greater than or equal to b. If not print False.
+# a = int(input("Enter first integer (a): "))
+# b = int(input("Enter second integer (b): "))
+# print(a >= b)  # True if a is greater than or equal to b, else false

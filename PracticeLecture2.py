@@ -1,9 +1,38 @@
-# Let‘s Practice
-# WAP to input user’s first name & print its length.
-# WAP to find the occurrence of ‘$’ in a String.
-# WAP to check if a number entered by the user is odd or even.
+# # Let‘s Practice
+# # WAP to input user’s first name & print its length.
+# first_name = input("Enter your first name: ")
+# print("Length of your first name is:", len(first_name))
+
+
+# # WAP to find the occurrence of ‘$’ in a String.
+# dollars = input("Enter an amount with currency symbol: ")
+# count_dollars = dollars.count("$")
+# print("Number of occurrences of '$':", count_dollars)
+
+
+# # WAP to check if a number entered by the user is odd or even.
+# a = int(input("Guess any number: "))
+# if a % 2 == 0:
+#     print("The number is even.")
+# else:
+#     print("The number is odd.")
+
+
 # WAP to find the greatest of 3 numbers entered by the user.
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# num3 = int(input("Enter third number: "))
+# if (num1 >= num2) and (num1 >= num3):
+#     print("The Greatest Number is the first number:", num1)
+# elif (num2 >= num3) and (num2 >= num1):
+#     print("The Greatest Number is the second number:", num2)
+# else:
+#     print("The Greatest Number is the third number:", num3)
+
+
 # WAP to check if a number is a multiple of 7 or not.
+
+
 # WAP to check if a year entered by the user is a leap year or not.
 # (A year is a leap year if it is divisible by 4 but not by 100,
 # except if it is divisible by 400.)
