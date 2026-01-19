@@ -30,17 +30,75 @@
 #     print("The Greatest Number is the third number:", num3)
 
 
-# WAP to check if a number is a multiple of 7 or not.
+# # WAP to check if a number is a multiple of 7 or not.
+# num = int(input("Enter a number: "))
+# if num % 7 == 0:
+#     print(num, "is a multiple of 7.")
+# else:
+#     print(num, "is not a multiple of 7.")
 
 
-# WAP to check if a year entered by the user is a leap year or not.
+# # WAP to check if a year entered by the user is a leap year or not.
+# year = int(input("Enter a year: "))
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print(year, "is a leap year.")
+# else:
+#     print(year, "is not a leap year.")
 # (A year is a leap year if it is divisible by 4 but not by 100,
 # except if it is divisible by 400.)
-# WAP to input a character & check if it is a vowel or consonant.
-# WAP to input a character & check if it is an alphabet, digit or special character.
-# WAP to input 3 sides of a triangle & check if it is
-# equilateral, isosceles or scalene triangle.
-# WAP to input marks of 5 subjects & print the division obtained.
+
+
+# # WAP to input a character & check if it is a vowel or consonant.
+# letter = input("Enter a letter of the alphabet: ").lower()
+# if letter in "aeiou":
+#     print(letter, "is a vowel.")
+# else:
+#     print(letter, "is a consonant.")
+
+
+# # WAP to input a character & check if it is an alphabet, digit or special character.
+# character = input("Enter a character: ")
+# if character.isalpha():
+#     print(character, "is an alphabet.")
+# elif character.isdigit():
+#     print(character, "is a digit.")
+# else:
+#     print(character, "is a special character.")
+
+
+# # WAP to input 3 sides of a triangle & check if it is
+# # equilateral, isosceles or scalene triangle.
+# side1 = float(input("Enter Length of the first side of the triangle: "))
+# side2 = float(input("Enter Length of the second side of the triangle: "))
+# side3 = float(input("Enter Length of the third side of the triangle: "))
+# if side1 == side2 == side3:
+#     print("The triangle is Equilateral.")
+# elif side2 == side3 or side1 == side3 or side1 == side2:
+#     print("The triangle is Isosceles.")
+# else:
+#     print("The triangle is Scalene.")
+
+
+# # WAP to input marks of 5 subjects & print the division obtained.
+# English = float(input("Enter marks obtained in english: "))
+# Maths = float(input("Enter marks obtained in maths: "))
+# Science = float(input("Enter marks obtained in science: "))
+# Hindi = float(input("Enter marks obtained in hindi: "))
+# Social_Science = float(input("Enter marks obtained in social science: "))
+# total_marks_obtained = English + Maths + Science + Hindi + Social_Science
+# percentage = (total_marks_obtained / 500) * 100
+# if percentage >= 60:
+#     print("First Division")
+# elif percentage >= 45:
+#     print("Second Division")
+# elif percentage >= 33:
+#     print("Third Division")
+# else:
+#     print("Fail")
+# # (First Division: 60% & above, Second Division: 45% to 59%,
+# # Third Division: 33% to 44%, Fail: below 33%)
+
+
 # WAP to input a month number (1-12) & print the number of days in that month.
 # WAP to input temperature in Celsius & convert it to Fahrenheit.
 # WAP to input a character & check if it is uppercase or lowercase.
