@@ -114,7 +114,8 @@ myDict = {
 # set2 = {3, 4, 5}
 # set1.difference( set2 )  # Output: {1, 2}
 
-# set.symmetric_difference( set2 )  #returns values in either set1 or set2 but not in both
+# set.symmetric_difference( set2 )
+# #returns values in either set1 or set2 but not in both
 # For example:
 # set1 = {1, 2, 3}
 # set2 = {3, 4, 5}

@@ -56,9 +56,11 @@
 
 # Tuples in Python
 # A built-in data type that lets us create immutable sequences of values.
-# Tuples are similar to lists, but unlike lists, tuples cannot be changed after creation.
+# Tuples are similar to lists, but unlike lists,
+# tuples cannot be changed after creation.
 # Tuples are defined using parentheses ( ) instead of square brackets [ ].
-# Tuples are ordered, meaning the elements have a defined order and can be accessed by their index.
+# Tuples are ordered, meaning the elements have a defined order and
+# can be accessed by their index.
 # Example:
 # tup = (87, 64, 33, 95, 76) #tup[0], tup[1]..
 # tup[0] = 43 #NOT allowed in python
