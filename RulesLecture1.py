@@ -19,35 +19,43 @@
 # Arithmetic Operators ( + , - , * , / , % , ** )
 # Relational / Comparison Operators ( == , != , > , < , >= , <= )
 # Assignment Operators ( = , +=, -= , *= , /= , %= , **=  )
-# Apna College
 # Logical Operators ( not , and , or )
 
 
 # Function
 # Description
+
 # int(y [base])
-# It converts yto an integer, and Base specifies the number base. For example, if
+# It converts y to an integer, and Base specifies the number base. For example, if
 # you want to convert the string in decimal numbers then you'll use 10 as base.
+
 # float(y)
-# It converts yto a floating-point number.
-# complex(real
-# It creates a complex number.
-# Apna
-# [imag])
+# It converts y to a floating-point number.
+
+# complex(real [imag])
+# It creates a complex number. real is the real part and imag is the imaginary part.
+
 # str(y)
-# It converts yto a string.
+# It converts y to a string.
+
 # tuple(y)
-# It converts yto a tuple.
+# It converts y to a tuple.
+
 # list(y)
-# It converts yto a list.
+# It converts y to a list.
+
 # set(y)
-# It converts yto a set.
+# It converts y to a set.
+
 # dict(y)
 # It creates a dictionary and y should be a sequence of (key, value) tuples.
+
 # ord(y)
 # It converts a character into an integer.
+
 # hex(y)
 # It converts an integer to a hexadecimal string.
+
 # oct(y)
 # It converts an integer to an octal string
 
@@ -55,8 +63,8 @@
 # Input in Python
 # input( ) statement is used to accept values (using keyboard) from user
 # input( )  #result for input( ) is always a str
-# int ( input( ) )  #int
-# float ( input( ) )   #float
+# int ( input( ) ) #integer for input( ) is converted to int
+# float ( input( ) )   #float for input( ) is converted to float.
 
 
 # name = "Jaswant Singh"
@@ -127,23 +135,28 @@
 
 
 # # Type Casting
+
 # # Implicit Type Casting
 # a = 5  # int
 # b = 2.0  # float
 # c = a + b  # int + float = float
 # print(
 #     "Implicit Type Casting:", c, type(c)
-# )  # Implicit Type Casting: 7.0 <class 'float'>
+# )
+# # Implicit Type Casting: 7.0 <class 'float'>
+
 # # Explicit Type Casting
 # x = 10  # int
 # y = float(x)  # int to float
 # z = str(x)  # int to str
 # print(
 #     "Explicit Type Casting to float:", y, type(y)
-# )  # Explicit Type Casting to float: 10.0 <class 'float'>
+# )
+# # Explicit Type Casting to float: 10.0 <class 'float'>
 # print(
 #     "Explicit Type Casting to str:", z, type(z)
-# )  # Explicit Type Casting to str: 10 <class 'str'>
+# )
+# # Explicit Type Casting to str: 10 <class 'str'>
 # # This program demonstrates both implicit and explicit type casting
 # # and prints the results along with their types.
 # # The program covers basic data types, arithmetic operations,

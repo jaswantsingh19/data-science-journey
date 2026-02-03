@@ -6,11 +6,13 @@
 # they can be accessed by their index
 
 # marks = [87, 64, 33, 95, 76]  ## marks[0], marks[1]..
-# marks[2] = 40  ## allowed in python
+# marks[2] = 40  ## allowed in lists
+# marks is now [87, 64, 40, 95, 76]
 # len(marks)  ## returns length of list
 
 # student = ["Karan", 85, "Delhi"]  ## student[0], student[1]..
-# student[0] = "Arjun"  ## allowed in python
+# student[0] = "Arjun"  ## allowed in lists
+# student is now ["Arjun", 85, "Delhi"]
 # len(student)  ## returns length of list
 
 # List Slicing
@@ -34,10 +36,15 @@
 # list.sort( )  #sorts in ascending order # results [1, 2, 3]
 # list.sort( reverse=True )  #sorts in descending order # results [3, 2, 1]
 # list.reverse( )  #reverses list # results [3, 1, 2]
+
 # list.insert( idx, el )  # insert element at index idx
+# For Example:
 # results: list.insert(1, 4) # results [2, 4, 1, 3]
+
 # list.extend( another_list )  #adds all elements of another_list at the end
+# For Example:
 # results: list.extend( [4, 5] ) # results [2, 1, 3, 4, 5]
+
 # list.count( el )  #counts total occurrences of el in list
 # results: list.count(1) is 1
 # list.index( el )  #returns index of first occurrence of el
@@ -47,10 +54,15 @@
 # List Methods
 # list = [2, 1, 3, 1]
 # list.remove(1)  #removes first occurrence of element # results [2, 3, 1]
+
 # list.pop( idx )  #removes element at idx and returns it
+# For Example:
 # results: list.pop(1) is 1, list is now [2, 3, 1]
+
 # list.pop( )  #removes last element and returns it
+# For Example:
 # results: list.pop() is 1, list is now [2, 1, 3]
+
 # list.clear( )  #removes all elements from list # results []
 
 
@@ -61,13 +73,16 @@
 # Tuples are defined using parentheses ( ) instead of square brackets [ ].
 # Tuples are ordered, meaning the elements have a defined order and
 # can be accessed by their index.
-# Example:
+
+# Examples:
 # tup = (87, 64, 33, 95, 76) #tup[0], tup[1]..
-# tup[0] = 43 #NOT allowed in python
+# tup[0] = 43 #NOT allowed in tuples
+# tup is still (87, 64, 33, 95, 76)
 # tup1 = ( ) #empty tuple
 # tup2 = ( 1, ) #single element tuple
 # tup3 = ( 1, 2, 3 ) #multiple element tuple
 # len(tup) #returns length of tuple
+
 # Tuple Slicing
 # Similar to String & List Slicing
 # tup = (87, 64, 33, 95, 76)

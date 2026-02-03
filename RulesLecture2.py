@@ -13,7 +13,6 @@
 # length of str
 # len(str)
 
-
 # Indexing
 # str = “Apna_College”
 # str[0] is ‘A’, str[1] is ‘p’ ...
@@ -39,19 +38,37 @@
 # String Functions
 # str = “I am a coder.”
 # str.endsWith(“er.“)  #returns true if string ends with substr
+# For Example:
+# vari = "I am learning Python."
+# vari.endswith("Python.")
+# print(vari.endswith("Python."))  # Output: True
+
+# str.startswith(“I”)  #returns true if string starts with substr
 # str.capitalize( )  #capitalizes 1st char
 # str.replace( old, new )  #replaces all occurrences of old with new
 # str.find( word )  #returns 1st index of 1st occurrence of substr
 # str.lower( )  #converts string to lowercase
 # str.upper( )  #converts string to uppercase
 # str.strip( )  #removes leading & trailing whitespaces
+# For Example:
+# vari = "   Hello, World!   "
+# print(vari.strip())  # Output: "Hello, World!"
+
+# str.split( sep )  #splits string into list using sep as separator
+# str.join( list)  #joins list of strings into single string using str as separator
+# str.index(“am“)  #returns 1st index of substr
+# str.isalpha( )  #returns true if all chars in string are alphabets
+# str.isdigit( )  #returns true if all chars in string are digits
+# str.isspace( )  #returns true if all chars in string are whitespaces
+# str.islower( )  #returns true if all chars in string are lowercase
+# str.isupper( )  #returns true if all chars in string are uppercase
 # str.count(“am“)  #counts the occurrence of substr in string
 
 
 # Conditional Statements
 # if-elif-else (SYNTAX)
 
-# if(condition) :
+# if(condition) : S
 #     Statement1
 # elif(condition):
 #     Statement2

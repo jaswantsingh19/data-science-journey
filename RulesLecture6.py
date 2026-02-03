@@ -2,10 +2,7 @@
 # Block of statements that perform a specific task.
 
 # def func_name( param1, param2..) :
-# #some work
 # return val
-
-
 # func_name( arg1, arg2 ..) #function call
 
 # For Example:
@@ -59,7 +56,12 @@
 
 
 # output = a()
+# results: "Hello!!! Hola"
+
 # print(output)  # None
+# because function has no return statement
+# when we try to print a variable which stores function call result
+# it shows None as output
 
 
 # For Example:

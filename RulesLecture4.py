@@ -19,8 +19,8 @@ nested_dict = {
     "city": "Chandigarh",  # Key: city, Value: Chandigarh
     "education": {  # Nested Dictionary with key education
         "undergraduate": "B.Tech",  # Key: undergraduate, Value: B.Tech
-        "postgraduate": "M.Tech",
-    },  # Key: postgraduate, Value: M.Tech
+        "postgraduate": "M.Tech",  # Key: postgraduate, Value: M.Tech
+    },
 }
 
 # Dictionary Methods
@@ -66,6 +66,35 @@ myDict = {
 # Set is the collection of the unordered items.
 # Each element in the set must be unique & immutable.
 # Sets are mutable, meaning we can add or remove items from it.
+# Sets are defined using curly braces { }.
+# we can have integers, strings, or tuples as elements of a set,
+# but we cannot have lists or dictionaries as elements of a set.
+
+# Sets are mutable, but the elements contained in the set must be immutable.
+# For example:
+# An example of mutable set:
+# mySet = {1, 2, 3}
+# mySet.add(4)  # adds 4 to the set
+# mySet is now {1, 2, 3, 4}
+
+# An example of immutable elements in a set:
+# mySet = {(1, 2), (3, 4)}  # tuples as elements
+# Another example of immutable elements in a set:
+# mySet = {"apple", "banana", "cherry"}  # strings as elements
+# mySet = {1, 2.5, "hello", (1, 2)}  # mixed immutable elements
+# myset.add([3, 4])  # NOT allowed, lists are mutable
+# myset.add( {"key": "value"} )  # NOT allowed, dictionaries are mutable
+# myset.add( {1, 2} )  # NOT allowed, sets are mutable
+
+# what will be allowed in sets are int, float, string, tuple
+# like below:
+# mySet = {1, 2.5, "hello", (1, 2)}  # mixed immutable elements
+# lets try to add something which is allowed
+# mySet.add( (3, 4) )  # allowed, tuples are immutable
+# mySet is now {1, 2.5, "hello", (1, 2), (3, 4)}
+# mySet.add( "world" )  # allowed, strings are immutable
+# mySet is now {1, 2.5, "hello", (1, 2), (3, 4), "world"}
+
 
 # For example:
 # mySet = {"apple", "banana", "cherry"}
@@ -101,18 +130,24 @@ myDict = {
 # set1 = {1, 2, 3}
 # set2 = {3, 4, 5}
 # set1.union( set2 )  # Output: {1, 2, 3, 4, 5}
+# or
+# set2.union( set1 )  # Output: {1, 2, 3, 4, 5}
 
 # set.intersection( set2 )  #combines common values & returns new
 # For example:
 # set1 = {1, 2, 3}
 # set2 = {3, 4, 5}
 # set1.intersection( set2 )  # Output: {3}
+# or
+# set2.intersection( set1 )  # Output: {3}
 
 # set.difference( set2 )  #returns values in set1 not in set2
 # For example:
 # set1 = {1, 2, 3}
 # set2 = {3, 4, 5}
 # set1.difference( set2 )  # Output: {1, 2}
+# or
+# set2.difference( set1 )  # Output: {4, 5}
 
 # set.symmetric_difference( set2 )
 # #returns values in either set1 or set2 but not in both
@@ -120,3 +155,10 @@ myDict = {
 # set1 = {1, 2, 3}
 # set2 = {3, 4, 5}
 # set1.symmetric_difference( set2 )  # Output: {1, 2, 4, 5}
+# or
+# set2.symmetric_difference( set1 )  # Output: {1, 2, 4, 5}
+# its similar to union - intersection but more efficient
+# the key point is it excludes common elements
+# in uninon we include all elements from both sets
+# in intersection we include only common elements
+# in symmetric_difference we include only non-common elements
