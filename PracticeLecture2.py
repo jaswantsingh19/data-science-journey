@@ -88,13 +88,37 @@
 # total_marks_obtained = English + Maths + Science + Hindi + Social_Science
 # percentage = (total_marks_obtained / 500) * 100
 # if percentage >= 60:
-#     print("First Division")
+#     print(
+#         "Total Marks:",
+#         total_marks_obtained,
+#         "Percentage:",
+#         percentage,
+#         "Division: First Division",
+#     )
 # elif percentage >= 45:
-#     print("Second Division")
+#     print(
+#         "Total Marks:",
+#         total_marks_obtained,
+#         "Percentage:",
+#         percentage,
+#         "Division: Second Division",
+#     )
 # elif percentage >= 33:
-#     print("Third Division")
+#     print(
+#         "Total Marks:",
+#         total_marks_obtained,
+#         "Percentage:",
+#         percentage,
+#         "Division: Third Division",
+#     )
 # else:
-#     print("Fail")
+#     print(
+#         "Total Marks:",
+#         total_marks_obtained,
+#         "Percentage:",
+#         percentage,
+#         "Division: Fail",
+#     )
 # # (First Division: 60% & above, Second Division: 45% to 59%,
 # # Third Division: 33% to 44%, Fail: below 33%)
 
