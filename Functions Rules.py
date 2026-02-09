@@ -122,3 +122,7 @@
 #         return 1
 #     else:
 #         return n * fact(n - 1)
+
+
+print(r"Python is \"awesome\"")
+
